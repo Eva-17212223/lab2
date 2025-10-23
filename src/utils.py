@@ -1,10 +1,9 @@
-#add function:
-
+# add function:
 def add(*args):
     return sum(*args)
 
 
-#Substract function:
+# Substract function:
 def subtract(*args):
     if not args:
         return 0
@@ -13,15 +12,16 @@ def subtract(*args):
         result -= num
     return result
 
-#Multiply function :
 
+# Multiply function :
 def multiply(*args):
     result = 1
     for num in args:
         result *= num
     return result
 
-#Divide function : 
+
+# Divide function :
 def divide(*args):
     if not args:
         return None

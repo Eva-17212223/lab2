@@ -1,0 +1,4 @@
+* 08af86f Add multiply and ddivide functions
+* 29bb9e6 Add src/utils.py
+* 5b3b54f Add .gitignore to ignore venv, __pycache__, and temp files
+* 2f98cbd Initial commit
