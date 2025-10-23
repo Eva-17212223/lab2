@@ -1,7 +1,6 @@
 from src.utils import add, subtract, multiply, divide
 
 
-
 def main():
     while True:
         print("\n--- Simple Calculator ---")
