@@ -1,6 +1,6 @@
-# add function:
+# Add function:
 def add(*args):
-    return sum(*args)
+    return sum(args) if args else 0
 
 
 # Substract function:
@@ -8,26 +8,28 @@ def subtract(*args):
     if not args:
         return 0
     result = args[0]
-    for num in args[1:]:
-        result -= num
+    for n in args[1:]:
+        result -= n
     return result
 
 
-# Multiply function :
+# Multiply function:
 def multiply(*args):
+    if not args:
+        return 0
     result = 1
-    for num in args:
-        result *= num
+    for n in args:
+        result *= n
     return result
 
 
-# Divide function :
+# Divide function:
 def divide(*args):
     if not args:
-        return None
+        return 0
     result = args[0]
     for num in args[1:]:
         if num == 0:
-            raise ValueError("Cannot divide by zero")
+            raise ZeroDivisionError("Division by zero is not allowed")
         result /= num
     return result
