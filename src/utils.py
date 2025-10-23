@@ -13,12 +13,15 @@ def subtract(*args):
         result -= num
     return result
 
+#Multiply function :
+
 def multiply(*args):
     result = 1
     for num in args:
         result *= num
     return result
 
+#Divide function : 
 def divide(*args):
     if not args:
         return None
