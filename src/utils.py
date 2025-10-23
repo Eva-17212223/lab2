@@ -1,6 +1,6 @@
 # Add function:
 def add(*args):
-    print("Addition from partner B")
+    print("Addition from Partner A & Partner B")
     return sum(args) if args else 0
 
 
